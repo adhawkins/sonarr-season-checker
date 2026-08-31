@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+.tox/
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Local temp directories
+unsloth-tmp/
+
+# Probe / output files
+probe*.txt
+run_out.txt
+verbose_run.txt
+
+# Local config (may contain credentials)
+sonarr_config.json
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
